@@ -4,33 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb02d685-da16-4b56-8ef1-c6b303e455f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/java-collections-ru.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/README.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/examples/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/examples/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/presentation.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/src/main/java/exercise/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/src/test/java/exercise/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/src/test/resources/fixtures/s1.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-streams/src/test/resources/fixtures/s2.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    <list default="true" id="151c9a89-5455-4a4f-80d9-b0709444d934" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/examples/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/src/test/resources/fixtures/s1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-streams_26.01.23_11.49.56/src/test/resources/fixtures/s2.conf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lambdas/src/main/java/exercise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lambdas/src/main/java/exercise/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../streams/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../streams/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tests/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tests/.idea/gradle.xml" afterDir="false" />
@@ -71,7 +74,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2KoGetZF5DfWg0w8CRZ1irrl2xl" />
+  <component name="ProjectId" id="2KrUQCzRG4m80wSaIRCkFBc5t4l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -81,36 +84,31 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/melnikvv/Hexlet/hexlet-assignments/java-collections-ru/advanced-streams_26.01.23_11.49.56",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+    "last_opened_file_path": "//wsl$/Ubuntu/home/melnikvv/Hexlet/hexlet-assignments/java-collections-ru/advanced-streams",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="advanced-streams_26.01.23_11.49.56" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="test" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="test" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="advanced-streams_26.01.23_11.49.56" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile Target.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bb02d685-da16-4b56-8ef1-c6b303e455f1" name="Changes" comment="" />
-      <created>1674633624232</created>
+      <changelist id="151c9a89-5455-4a4f-80d9-b0709444d934" name="Changes" comment="" />
+      <created>1674732178347</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1674633624232</updated>
+      <updated>1674732178347</updated>
     </task>
     <servers />
   </component>
@@ -124,9 +122,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
