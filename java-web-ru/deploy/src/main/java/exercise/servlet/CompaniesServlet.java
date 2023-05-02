@@ -19,7 +19,12 @@ public class CompaniesServlet extends HttpServlet {
 
         // BEGIN
         PrintWriter pw = response.getWriter();
-        if (request.getQueryString().contains("search")) {
+        if (request.getQueryString() == null
+        || !request.getQueryString().contains("search")
+        || request.getParameter("search").equals("")) {
+            getCompanies().stream()
+                .forEach(comp -> pw.println(comp));
+        } else if (request.getQueryString().contains("search")) {
             String value = request.getParameter("search");
             List<String> companies = getCompanies().stream()
                 .filter(str -> str.contains(value))
@@ -29,10 +34,6 @@ public class CompaniesServlet extends HttpServlet {
             if (companies.isEmpty()) {
                 pw.println("Companies not found");
             }
-        } else if (!request.getQueryString().contains("search")
-            || request.getParameter("search").equals("")) {
-            getCompanies().stream()
-                .forEach(comp -> pw.println(comp));
         }
         // END
     }
