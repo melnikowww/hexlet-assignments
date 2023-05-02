@@ -4,6 +4,6 @@ WORKDIR /deploy
 
 COPY /deploy .
 
-RUN gradle installDist
+RUN ./gradlew installDist
 
 CMD ./build/install/deploy/bin/deploy
