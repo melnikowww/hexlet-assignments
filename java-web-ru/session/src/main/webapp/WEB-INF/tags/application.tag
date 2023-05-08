@@ -1,6 +1,5 @@
 <%@tag description="Layout" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 
 <!DOCTYPE html>
@@ -43,9 +42,10 @@
         </nav>
         <div class="container mt-3">
             <!-- BEGIN -->
-                <div class="alert alert-info" role="alert">
-                    ${sessionScope.flash}
-                    <% session.removeAttribute("flash"); %>
+                <c:if test="${sessionScope.flash != null}">
+                        <div class="alert alert-info" role="alert">${sessionScope.flash}</div>
+                        <% session.removeAttribute("flash"); %>
+                </c:if>
             <!-- END -->
             <jsp:doBody />
         </div>

@@ -65,7 +65,7 @@ public class SessionServlet extends HttpServlet {
         if (user != null && password.equals("password")) {
             session.setAttribute("userId", user.get("id"));
             session.setAttribute("flash", "Вы успешно вошли");
-            response.sendRedirect("");
+            response.sendRedirect(request.getContextPath() + "/");
         } else {
             session.setAttribute("flash", "Неверные логин или пароль");
             response.setStatus(422);
@@ -84,7 +84,8 @@ public class SessionServlet extends HttpServlet {
         // BEGIN
         HttpSession session = request.getSession();
         session.removeAttribute("userId");
-        response.sendRedirect("");
+        session.setAttribute("flash", "Вы успешно вышли");
+        response.sendRedirect(request.getContextPath() + "/");
         // END
     }
 }

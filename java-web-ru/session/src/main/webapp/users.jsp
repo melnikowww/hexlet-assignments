@@ -4,17 +4,17 @@
 
 <tag:application>
     <table class="table">
-        <thead>
+        <head>
             <th>ID</th>
             <th>Полное имя</th>
-        </thead>
-        <tbody>
+        </head>
+        <body>
         <c:forEach var="user" items="${users}">
             <tr>
                 <td>${user.get("id")}</td>
                 <td><a href='/users/show?id=${user.get("id")}'>${user.get("firstName")} ${user.get("lastName")}</a></td>
             </tr>
         </c:forEach>
-        </tbody>
+        </body>
     </table>
 </tag:application>
