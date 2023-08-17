@@ -1,0 +1,40 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: hexlet
+      changes:
+        - createTable:
+           tableName: person
+           columns:
+             - column:
+                 name: id
+                 type: bigint
+                 autoIncrement: true
+                 constraints:
+                   primaryKey: true
+                   nullable: false
+             - column:
+                 name: firstName
+                 type: varchar(250)
+             - column:
+                 name: lastName
+                 type: varchar(250)
+
+  - changeSet:
+      id: 2
+      author: melnikwww
+      changes:
+          - renameColumn:
+              columnDataType: varchar(250)
+              newColumnName: first_name
+              oldColumnName: firstName
+              tableName: person
+          - renameColumn:
+              columnDataType: varchar(250)
+              newColumnName: last_name
+              oldColumnName: lastName
+              tableName: person
+
+
+
+
