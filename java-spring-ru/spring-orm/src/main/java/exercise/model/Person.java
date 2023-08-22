@@ -9,8 +9,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 // BEGIN
-@Entity
 @Data
+@Entity
 // END
 public class Person {
 
