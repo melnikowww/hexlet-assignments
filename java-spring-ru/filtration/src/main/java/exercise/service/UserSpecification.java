@@ -17,9 +17,9 @@ public final class UserSpecification implements Specification<User> {
     @Override
     public Predicate toPredicate(Root<User> root, CriteriaQuery<?> query, CriteriaBuilder criteriaBuilder) {
         // BEGIN
-        Expression<String> expressionKey = root.get(searchCriteria.getKey());
-        Pattern pattern = Pattern.compile(searchCriteria.getValue().toString(), Pattern.CASE_INSENSITIVE);
-        return criteriaBuilder.like(expressionKey, pattern.pattern());
+        Expression<String> expressionKey = criteriaBuilder.lower(root.get(searchCriteria.getKey()));
+        String pattern = "%" + searchCriteria.getValue().toString().toLowerCase() + "%";
+        return criteriaBuilder.like(expressionKey, pattern);
         // END
     }
 }
