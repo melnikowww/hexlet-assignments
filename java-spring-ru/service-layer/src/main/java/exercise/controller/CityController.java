@@ -39,8 +39,8 @@ public class CityController {
         StringBuilder stringBuilder = new StringBuilder("[");
         boolean first = true;
 
-        List<City> cities = name != null ? cityRepository.findByNameStartingWithIgnoreCase(name) :
-            cityRepository.findAllByOrderByName() ;
+        List<City> cities = name != null ? cityRepository.findByNameStartingWithIgnoreCase(name)
+            : cityRepository.findAllByOrderByName();
 
         for (City city: cities) {
             if (!first) {
